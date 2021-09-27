@@ -1,0 +1,22 @@
+p, .phormula, .but{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 25px;
+}
+.main{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top{
+    border-bottom: 1px solid black;
+}
+.but{
+    padding-top: 20px;
+}
+input{
+    width: 35px;
+}
+body{
+    background: rgb(209, 208, 208);
+}
