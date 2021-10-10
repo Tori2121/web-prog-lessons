@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-flow: column-reverse;
+    width: 600px;
+}
+div{
+    display: flex;
+    align-items:flex-start;
+    flex-flow: column;
+    padding-top: 20px;
+}
+label{
+    padding-left: 5px;
+}

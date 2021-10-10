@@ -28,8 +28,8 @@ function fnk(){
     }
     f1.value = val_f1;
 }
-fi2.addEventListener("click",fnk);
-function fnk(){
+fi2.addEventListener("click",fn);
+function fn(){
     let val_x = parseFloat(x.value);
     let val_y = parseFloat(y.value);
     let val_k = 0;
@@ -47,8 +47,8 @@ function fnk(){
     }
     k.value = val_k;
 }
-fi3.addEventListener("click",fnk);
-function fnk(){
+fi3.addEventListener("click",fn1);
+function fn1(){
     let val_k1 = parseInt(k1.value);
     let val_l1 = parseInt(l1.value);
     let val_k2 = 0;
@@ -64,8 +64,8 @@ function fnk(){
     k2.value = val_k2;
     l2.value = val_l2;
 }
-fi4.addEventListener("click",fnk);
-function fnk(){
+fi4.addEventListener("click",fn2);
+function fn2(){
     let val_n = parseFloat(n.value);
     let val_an = '';
     if (val_n >= 10 && val_n < 100 && val_n % 2 == 0) {
@@ -76,8 +76,8 @@ function fnk(){
     }
     an.value = val_an;
 }
-fi5.addEventListener("click",fnk);
-function fnk(){
+fi5.addEventListener("click",fn3);
+function fn3(){
     let val_n1 = parseFloat(n1.value);
     let val_an1 = '';
     if (val_n1 > 0  && val_n1 % 5 == 0) {
@@ -88,8 +88,8 @@ function fnk(){
     }
     an1.value = val_an1;
 }
-fi6.addEventListener("click",fnk);
-function fnk(){
+fi6.addEventListener("click",fn4);
+function fn4(){
     let val_n2 = parseInt(n2.value);
     let val_an2 = '';
     if (val_n2 >= 100 && val_n2 < 1000  && Math.floor(val_n2 / 100) == val_n2 % 10) {
@@ -100,8 +100,8 @@ function fnk(){
     }
     an2.value = val_an2;
 }
-fi7.addEventListener("click",fnk);
-function fnk(){
+fi7.addEventListener("click",fn5);
+function fn5(){
     let val_n3 = parseInt(n3.value);
     let val_an3 = '';
     if (val_n3 >= 5 && val_n3 < 12) {
