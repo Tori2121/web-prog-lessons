@@ -1,0 +1,14 @@
+div{
+    height: 30px;
+}
+label{
+    padding: 10px;
+    padding-left: 2px;
+
+}
+.button{
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+}
